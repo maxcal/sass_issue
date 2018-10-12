@@ -1,5 +1,7 @@
 {
   "name": "sass_issue",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "primer": "^10.8.1"
+  }
 }
