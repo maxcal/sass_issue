@@ -1,0 +1,21 @@
+/*
+ * Make sure you don't have any Sprockets directives as they don't play
+ * well with SASS as each file is compiled seperatly
+ */
+
+@import 'primer/index.scss';
+
+.spacer {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+  background-color: red;
+}
+
+.spacer-0 { width: $spacer-0 }
+.spacer-1 { width: $spacer-1 }
+.spacer-2 { width: $spacer-2 }
+.spacer-3 { width: $spacer-3 }
+.spacer-4 { width: $spacer-4 }
+.spacer-5 { width: $spacer-5 }
+.spacer-6 { width: $spacer-6 }
